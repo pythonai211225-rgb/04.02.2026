@@ -65,3 +65,13 @@ else:
 #      print('score high or low')
 #   else:
 #      print('medium score')
+#
+# input number from user
+#   is_positive should be True if number >= 0
+#   write if with print
+#
+# input number from user
+#   is_even should be True if number % 2 == 0
+#   write if with print
+#
+# **Bonus: input number from user, is_prime should be True if the number is prime otherwise False
