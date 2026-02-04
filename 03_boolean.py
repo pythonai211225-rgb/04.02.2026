@@ -55,13 +55,13 @@ else:
 #      print('not in range')
 #
 # is_best should be True if the rating was 5
-#   if is_best:
+#   if is_valid and is_best:
 #      print('highest score')
 #   else:
 #      print('not highest score')
 #
 # is_medium should be True if the rating was between 2-4
-#   if not is_medium:
+#   if is_valid and not is_medium:
 #      print('score high or low')
 #   else:
 #      print('medium score')
