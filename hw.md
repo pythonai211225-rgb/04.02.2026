@@ -72,10 +72,10 @@ For a post office delivery input the following details
 
 Now print the following using `print(f"...")`
 
-FOR: {last-name}, {first-name}
-COUNTRY: {country}
-ADDRESS: {city address}
-ZIPCODE: {zipcode}
+FOR: {last-name}, {first-name}  
+COUNTRY: {country}  
+ADDRESS: {city address}  
+ZIPCODE: {zipcode}  
 
 ## Question 5 – Password validation (string methods)
 
