@@ -10,34 +10,47 @@ while True:
     computer_card_suit = random.choice(["❤️", "♦️", "♣️", "♠️"])
 
     print('COMPUTER: ', end="")
-    if computer_card_number <= 10:
-        display_number = computer_card_number
-    elif computer_card_number == 11:
-        display_number = 'J'
-    elif computer_card_number == 12:
-        display_number = 'Q'
-    elif computer_card_number == 13:
-        display_number = 'K'
-    elif computer_card_number == 14:
-        display_number = 'A'
+
+    match computer_card_number:
+        case 14:
+            # if computer_card_number == 14
+            display_number = 'A'
+        case 13:
+            # elif computer_card_number == 13 ...
+            display_number = 'K'
+        case 12:
+            display_number = 'Q'
+        case 11:
+            display_number = 'J'
+        case _:  # else
+            display_number = computer_card_number
 
     print(display_number, computer_card_suit)
+
+    # input rating
+    # rating == 5 rating == 4  print('VERY GOOD')
+    # rating == 3 print('GOOD')
+    # rating == 2 print('NEEDS IMPROVEMENT')
+    # rating == 1 print('REALLY NEEDS IMPROVEMENT')
+    # else print('NOT IN RANGE')
+
 
     player_card_number = random.randint(2, 14)
     player_card_suit = random.choice(["❤️", "♦️", "♣️", "♠️"])
 
     print('PLAYER: ', end="")
 
-    if player_card_number <= 10:
-        display_number = player_card_number
-    elif player_card_number == 11:
-        display_number = 'J'
-    elif player_card_number == 12:
-        display_number = 'Q'
-    elif player_card_number == 13:
-        display_number = 'K'
-    elif player_card_number == 14:
-        display_number = 'A'
+    match player_card_number:
+        case 14:
+            display_number = 'A'
+        case 13:
+            display_number = 'K'
+        case 12:
+            display_number = 'Q'
+        case 11:
+            display_number = 'J'
+        case _:
+            display_number = player_card_number
 
     print(display_number, player_card_suit)
 
