@@ -1,4 +1,5 @@
 import random
+import time
 
 computer_score = 0
 player_score = 0
@@ -26,6 +27,8 @@ while True:
             display_number = computer_card_number
 
     print(display_number, computer_card_suit)
+
+    time.sleep(2)
 
     # input rating
     # rating == 5 rating == 4  print('VERY GOOD')
@@ -65,6 +68,9 @@ while True:
 
     print('SCORE:')
     print('PLAYER', player_score, 'COMPUTER', computer_score)
+
+    time.sleep(2)
+
     print('*' * 40)
 
     if computer_score >= 10 or player_score >= 10:
