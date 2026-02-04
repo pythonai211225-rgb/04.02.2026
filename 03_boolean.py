@@ -75,3 +75,10 @@ else:
 #   write if with print
 #
 # **Bonus: input number from user, is_prime should be True if the number is prime otherwise False
+
+# if current_time - trx_gttime()-30
+
+# trx_occur_past_30_days= ....
+
+# if trx_occur_past_30_days and trx_larger_than_1000:
+#   ....
