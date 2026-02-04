@@ -67,7 +67,7 @@ else:
 #      print('medium score')
 #
 # input number from user
-#   is_positive should be True if number >= 0
+#   is_positive should be True if number > 0
 #   write if with print
 #
 # input number from user
