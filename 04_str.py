@@ -29,7 +29,7 @@ print("Hello", name)
 number: str = str('five')
 print(number)
 
-number = str(5)
+number: str = str(5)  # 5 ==> "5"
 print(number)
 print(number + number)  # '5' + '5' ==> '55'
 phrase: str = "Hello" + " " + "World!"
@@ -40,4 +40,8 @@ phrase: str = "Hello" + " " + "World!"
 # phone (str)
 # year_birth (int)
 # vegetarian (boolean)
+vegetarian: bool = True
 # exact age (float)
+
+# veg = input("True/ False? ") == 'True'
+
