@@ -85,7 +85,7 @@ For a post office delivery, input the following details from the user:
 -- Use a **while loop** and `islower` to validate the first name input  
 * The **country** string length must be **at most 3 letters** (for example: US, IL)  
 -- Use a **while loop** and `isalpha` `len` to validate the country input  
-* The **zipcode** must contain **digits only and be at least 4 digits**
+* The **zipcode** must contain **digits only and be at least 4 digits**  
 -- Use a **while loop** and `isdigit` `len` to validate the zipcode input  
 
 ### Output Format
