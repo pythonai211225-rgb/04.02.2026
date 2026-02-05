@@ -80,7 +80,7 @@ For a post office delivery, input the following details from the user:
 ### Fixes & Requirements
 
 * The **last name** string should be **uppercase**  
-** Use a **while loop** and `isupper` to validate the last name input  
+-- Use a **while loop** and `isupper` to validate the last name input  
 * The **first name** string should be **lowercase**  
 ** Use a **while loop** and `islower` to validate the first name input  
 * The **country** string length must be **at most 3 letters** (for example: US, IL)  
