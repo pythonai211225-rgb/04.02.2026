@@ -62,8 +62,6 @@ Now check
 
 ## Question 4 – Post office delivery (f-string)
 
-## Question 4 – Post Office Delivery (f-string)
-
 For a post office delivery, input the following details from the user:
 
 * last name
@@ -81,32 +79,6 @@ For a post office delivery, input the following details from the user:
 * The **zipcode** must contain **digits only**
 * Use a **while loop** and `isalpha` to validate the zipcode input
 
----
-
-### Example Solution
-
-```python
-last_name = input("Enter last name: ").upper()
-first_name = input("Enter first name: ").lower()
-
-country = input("Enter country (max 3 letters): ")
-while not country.isalpha() or len(country) > 3:
-    country = input("Country must contain letters only and be up to 3 characters. Enter again: ")
-
-address = input("Enter city address: ")
-
-zipcode = input("Enter zipcode: ")
-while zipcode.isalpha():
-    zipcode = input("Zipcode must contain digits only. Enter again: ")
-
-print(f"FOR: {last_name}, {first_name}")
-print(f"COUNTRY: {country}")
-print(f"ADDRESS: {address}")
-print(f"ZIPCODE: {zipcode}")
-```
-
----
-
 ### Output Format
 
 FOR: LASTNAME, firstname
@@ -114,68 +86,11 @@ COUNTRY: IL
 ADDRESS: Tel Aviv
 ZIPCODE: 12345
 
-
-For a post office delivery, input the following details from the user:
-
-last name
-
-first name
-
-country
-
-city address
-
-zipcode
-
-Fixes & Requirements
-
-The last name must be converted to uppercase
-
-The first name must be converted to lowercase
-
-The country string length must be at most 3 letters (for example: US, IL)
-
-The zipcode must contain digits only
-
-Use a while loop and isalpha to validate the zipcode input
-
-For a post office delivery input the following details
-
-* last name
-* first name
-* country
-* city address
-* zipcode
-
-Now print the following using `print(f"...")`
+Use `print(f"...")`
 
 FOR: {last-name}, {first-name}  
 COUNTRY: {country}  
 ADDRESS: {city address}  
 ZIPCODE: {zipcode}  
-
-## Question 5 – Password validation (string methods)
-
-A valid password must include
-
-* at least one uppercase letter
-* at least one lowercase letter
-* at least one digit
-
-Tasks
-
-* Input the password from the user
-* Check if it is valid using these methods
-
-  * `isupper`
-  * `islower`
-  * `isalpha`
-  * `isdigit`
-
-Notes
-
-* If the password is valid print `valid password`
-* Otherwise print `invalid password`
-
 
 Submit email: **[pythonai211225+python9str@gmail.com](mailto:pythonai211225+python9str@gmail.com)**
