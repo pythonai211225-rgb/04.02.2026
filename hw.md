@@ -27,15 +27,15 @@ Tasks
 Use the `time.sleep` function to create the following output
 
 * Print `5`
-* Sleep 1 second
+* [Sleep 1 second]
 * Print `4`
-* Sleep 1 second
+* [Sleep 1 second]
 * Print `3`
-* Sleep 1 second
+* [Sleep 1 second]
 * Print `2`
-* Sleep 1 second
+* [Sleep 1 second]
 * Print `1`
-* Sleep 1 second
+* [Sleep 1 second]
 * Print `0 - Launch 🚀`
 
 Rules
