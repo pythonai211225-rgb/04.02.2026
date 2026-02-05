@@ -90,7 +90,7 @@ For a post office delivery, input the following details from the user:
 
 ### Output Format
 
-FOR: LASTNAME, firstname  
+FOR: COHEN, danny    
 COUNTRY: IL  
 ADDRESS: Tel Aviv  
 ZIPCODE: 12345  
